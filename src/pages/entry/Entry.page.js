@@ -53,8 +53,8 @@ export const Entry =() => {
     };
 
     return (
-        //<div className="">
-            <div className="jumbotron entry-page bg-info">
+        <div className="entry-page bg-info">
+            <div className="jumbotron">
                 {frmLoad === 'login' && (
                     <LoginForm 
                         handleOnChange={handleOnChange}
@@ -74,6 +74,6 @@ export const Entry =() => {
                     />
                     )}
             </div>
-        //</div>
+        </div>
     );
 };
